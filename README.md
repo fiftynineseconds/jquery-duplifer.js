@@ -3,8 +3,6 @@ A jQuery plugin that highlights duplicate cells in a table.
 
 jquery-duplifer will hightlight each duplicate cell in a table in a different color.
 
-PUT-EXAMPLE-HERE
-
 ## Basic Usage
 
 ### First create an html table that has the class duplifer-highlightdups applied to the th that contains duplicate rows.
