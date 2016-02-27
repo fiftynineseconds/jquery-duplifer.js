@@ -1,6 +1,6 @@
 (function ($) {
 
-			$.fn.findDups = function (options) {
+			$.fn.duplifer = function (options) {
 
 				var settings = $.extend({
 					colorGenerator: function (index)
