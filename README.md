@@ -1,2 +1,2 @@
-# duplifer.js
+# jquery-duplifer.js
 A jQuery plugin that highlights duplicate cells in a table.

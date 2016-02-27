@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>jquery duplifer example</title>
+	<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+	<script src="jquery-duplifer.js"></script>
+</head>
+<body>
+
+	<table class="find-duplicates">
+		<thead>
+			<tr>
+				<th>Column 1</th>
+				<th>Column 2</th>
+				<th class="duplifer-highlightdups">Column 3</th>
+			</tr>
+		</thead>
+
+		<tbody>
+			<tr>
+				<td>Test 1</td>
+				<td>Test 2</td>
+				<td>Test 3</td>
+			</tr>
+
+			<tr>
+				<td>Test 1</td>
+				<td>Test 2</td>
+				<td>Test 2</td>
+			</tr>
+
+			<tr>
+				<td>Test 1</td>
+				<td>Test 1</td>
+				<td>Test 1</td>
+			</tr>
+
+			<tr>
+				<td>Test 3</td>
+				<td>Test 3</td>
+				<td>Test 2</td>
+			</tr>
+
+			<tr>
+				<td>Test 1</td>
+				<td>Test 2</td>
+				<td>Test 3</td>
+			</tr>
+
+			<tr>
+				<td>Test 1</td>
+				<td>Test 2</td>
+				<td>Test 3</td>
+			</tr>
+		</tbody>
+	</table>
+
+	<script>
+	
+		$(document).ready(function () {
+			$(".find-duplicates").findDups();
+		});
+
+	</script>
+</body>
+</html>
