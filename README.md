@@ -5,7 +5,7 @@ jquery-duplifer will hightlight each duplicate cell in a table in a different co
 
 ![Example Table](https://github.com/fiftynineseconds/jquery-duplifer.js/blob/master/table-example.png)
 
-## Basic Usage
+## Getting Started
 
 First create an html table that has the class duplifer-highlightdups applied to the th that contains duplicate rows.
 
@@ -79,6 +79,7 @@ Parameter `index` is the zero-based index of the found duplicate. The first dupl
 
 By default the colors are randomly generated.
 
+The code below will generate the colors of the rainbow. (This example will only work for up to 7 duplicates.)
 ```javascript
 $(".find-duplicates").duplifer({
 	colorGenerator: function(index){
