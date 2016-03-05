@@ -79,7 +79,7 @@ Parameter `index` is the zero-based index of the found duplicate. The first dupl
 
 By default the colors are randomly generated.
 
-The code below will generate the colors of the rainbow. (This example will only work for up to 7 duplicates.)
+The code below will generate the colors of the rainbow. (The example below will only work for up to 7 duplicates since there are only seven elements in the array. The default color generator supplies random colors.)
 ```javascript
 $(".find-duplicates").duplifer({
 	colorGenerator: function(index){
